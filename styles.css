@@ -1,0 +1,24 @@
+/* Basic styling for the game container */
+#game-container {
+    width: 300px; /* Adjust width as needed */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.block_piece, .field_piece {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background-color: white;
+}
