@@ -39,11 +39,12 @@ class Block{
             let len = this.shape.length;
             let block = [];
     
-            for(let col = 0; col < len; col++){
+            /* Swap index of rows for index of columns */
+            for(let row = 0; row < len; row++){
                 let new_row = [];
     
-                for(let row = len - 1; row >= 0; row--){
-                    new_row.push(this.shape[row][col]);
+                for(let col = len - 1; col >= 0; col--){
+                    new_row.push(this.shape[col][row]);
                 }
     
                 block.push(new_row);
