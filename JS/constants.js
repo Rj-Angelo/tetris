@@ -48,7 +48,5 @@ const constants = {
             right: "ArrowRight",
             down: "ArrowDown"
         }
-    },
-    offset: 1,
-    game_over_line: 1
+    }
 }
